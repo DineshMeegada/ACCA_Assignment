@@ -1,5 +1,6 @@
 import React from 'react'
 import { Form } from '../Form'
+import { Modal } from '../Model'
 
 const BecomeACCAIn18months = () => {
   return (
@@ -28,16 +29,17 @@ const BecomeACCAIn18months = () => {
             </div>
             <div className='text-white mt-10 '>
               <div className='flex gap-10'>
-                <button className='bg-[#6438f5] p-3 w-[150px] rounded-md'>
-                Lorem ipsum
-                </button>
+               
+                <Modal/>
                 <button className='bg-red-500 p-3 w-[150px] rounded-md'>
             Lorem ipsum
 
 </button>
               </div>
 
-            </div></div>
+            </div>
+
+            </div>
             <Form/>
 
     </div>
